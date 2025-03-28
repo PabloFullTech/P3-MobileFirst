@@ -42,6 +42,8 @@
 
     color: var(--laranja);
     font-weight: 700;
+    padding: 0.5rem 0;
+
 }
 .descricao__titulo-livro{
 
@@ -63,4 +65,18 @@
 
     display: flex;
     justify-content: space-between;
+    padding: 0.5rem;;
+}
+.botoes{}
+.botoes__items{
+
+    margin:0 0.5rem;
+}
+.botoes__ancora{
+
+    background-color: var(--laranja);
+    padding: 1rem 2.2rem;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
 }
